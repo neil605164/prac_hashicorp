@@ -1,0 +1,4 @@
+alive: consul-server-01 192.168.100.3:8301
+event-clock: 1
+alive: consul-server-01 192.168.100.3:8301
+event-clock: 2
