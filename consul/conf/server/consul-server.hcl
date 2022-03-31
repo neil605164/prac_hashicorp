@@ -44,3 +44,9 @@ acl = {
   ## 將token的資料持久化於disk上
   enable_token_persistence = true
 }
+
+## 普羅米修斯監控
+telemetry {
+  prometheus_retention_time = "480h"
+  disable_hostname = true
+}

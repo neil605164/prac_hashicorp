@@ -1,0 +1,10 @@
+- job_name: 'consul'
+    static_configs:
+    - targets: ['10.0.2.16:8500']
+    scheme: "http"
+    tls_config:
+      insecure_skip_verify: true
+    metrics_path: "/v1/agent/metrics"
+    params:
+      format: ['prometheus']
+    bearer_token: "404a6666-0fa9-d07a-83d9-149384b8bc04"

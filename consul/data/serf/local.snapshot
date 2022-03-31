@@ -1,25 +1,2 @@
 alive: consul-server-01 10.0.2.16:8301
 event-clock: 1
-alive: consul-client-1 10.0.2.34:8301
-clock: 5
-clock: 6
-clock: 7
-not-alive: consul-client-1
-alive: consul-client-1 10.0.2.34:8301
-clock: 9
-clock: 10
-not-alive: consul-client-1
-alive: consul-client-1 10.0.2.34:8301
-clock: 12
-clock: 13
-not-alive: consul-client-1
-alive: consul-client-1 10.0.2.34:8301
-clock: 15
-clock: 16
-not-alive: consul-client-1
-clock: 17
-alive: consul-client-1 10.0.2.34:8301
-clock: 19
-alive: consul-server-01 10.0.2.16:8301
-event-clock: 2
-alive: consul-client-1 10.0.2.34:8301
